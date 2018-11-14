@@ -56,3 +56,4 @@ def train():
                     saver.save(sess, "checkpoints/i{}_l{}.ckpt".format(counter, lstm_size))
         
         saver.save(sess, "checkpoints/i{}_l{}.ckpt".format(counter, lstm_size))
+train()
